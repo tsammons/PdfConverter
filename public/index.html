@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PdfToText</title>
+</head>
+<body>
+  <div class="title">PDF To Text</div>
+  <div class="container">
+    <div class="uploader">
+      <div
+        id="drop_zone"
+        ondrop="dropHandler(event);"
+        ondragover="dragOverHandler(event);">
+        <p>Drag one or more files to this <i>drop zone</i>.</p>
+      </div>
+      <input type="checkbox" id="isFormatted" value="Bike" checked>
+      <label for="vehicle1"> Format Document</label><br>
+    </div>
+    <textarea id="textarea" rows="40" cols="120"></textarea>
+  </div>
+  <script src='js/script.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+</body>
+</html>

@@ -1,0 +1,22 @@
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 10px 10px 10px 10px;
+}
+
+.container {
+  display: flex;
+}
+
+#drop_zone {
+    border: 5px solid blue;
+    width: 200px;
+    height: 100px;
+  }
+
+  #textarea {
+    white-space: pre-wrap;
+    font-family:courier, courier new, serif;
+    font-size: 12px;
+    margin-left: 25px;
+  }
